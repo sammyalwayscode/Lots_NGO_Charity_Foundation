@@ -1,0 +1,80 @@
+.parentDiv{
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+ 
+}
+
+.subParentDiv{
+
+}
+
+.headLabelDiv{
+  height: 90px;
+  width: 400px;
+  background-color: #242632;
+  margin-top: 30px;
+  border: 3px solid #F28E36;
+  text-align: center;
+
+}
+
+.meetDiv{
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.wrwpping{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.imageDiv{
+  margin-top: 50px;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+.imageCard{
+  height: 250px;
+  width: 250px;
+  border: 3px solid #F28E36;
+}
+
+/* .pixHolder{
+  height: 150px;
+  width: 150px;
+  background-color: #242632;
+  border-radius: 100px;
+  margin-top: 20px;
+} */
+
+  
+  .pixture{
+    height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  border: 3px solid #F28E36;
+  margin-top: 15px;
+  }
+
+  .name{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -5px;
+  }
+
+  .position{
+    font-weight: lighter;
+    margin-top: -20px;
+  }
+
+  .phoneNumber{
+    margin-top: -15px;
+  }

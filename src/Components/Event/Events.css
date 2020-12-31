@@ -1,0 +1,118 @@
+.EventConatainer{
+    display: flex;
+    height:100vh;
+    width:100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.Header{
+    display:flex;
+    margin-top: 20px;
+    height:10%;
+    width:50%;
+    background-color:rgb(51, 51, 66);
+    justify-content: center;
+    border-width: 5px;
+    /* border-color:orangered; */
+    border: 5px solid orangered;
+    color:white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.Header:hover{
+    cursor: pointer;
+}
+.AllsquaraHolder{
+    display:flex;
+    flex-wrap: wrap;
+    /* height: 200px; */
+    width:100vw;
+    /* background-color: blue; */
+    margin-top: 30px;
+    justify-content: center;
+}
+.box{
+    height:200px;
+    width:500px;
+    border:5px solid orangered;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.InnerBox{
+    height: 150px;
+    width: 450px;
+    /* background-color: red; */
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.EventImage{
+    height:100%;
+    width: 150px;
+    background-color: blue;
+}
+.EventImage:hover{
+    cursor:pointer;
+}
+.date{
+    height:80px;
+    width: 80px;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  
+}
+.tellmeDate{
+    height: 60px;
+    width:60px;
+    flex-direction: column;
+    font-size:15px;
+    font-weight: bold;
+    color:white;
+    /* background-color: blue; */
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+
+}
+.holdTwo{
+    display: flex;
+    width: 100vw;
+    /* height: 40vh; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: space-between; */
+    margin-top: 20px;
+}
+
+.storyMode{
+    display: flex;
+    height:100%;
+    width: 110px;
+    /* background-color: red; */
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+/* .Boot{
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: light;
+} 
+.storyMode>h5{
+    font-size: 12px;
+    font-weight: lighter;
+}
+.storyMode>h6{
+    font-size: 12px;
+    font-family: lighter;
+} */

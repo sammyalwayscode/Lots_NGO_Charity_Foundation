@@ -1,0 +1,30 @@
+.aFooter{
+  height: 100wh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  background-color: #242632;
+}
+
+.navFooter{
+  color: white;
+}
+
+.contr{
+  display: flex;
+  flex-direction: column;
+}
+
+.mediaLinks{
+ color: white;
+}
+
+.OurAddress{
+  width: 200px;
+  color: white;
+}
+
+.useF{
+  color: #F28E36;
+  font-weight: bold;
+}

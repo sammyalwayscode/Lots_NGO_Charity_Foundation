@@ -1,0 +1,169 @@
+.VContainer{
+  height:100vh;
+  width: 100vw;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* background-color: red; */
+}
+.HeaderTags{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 32%;
+  /* background-color: red; */
+}
+.our{
+  color:orange;
+  font-size: 50px;
+}
+.volonteer{
+  color:black;
+  font-size: 50px;
+}
+.imageHOlder{
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  height:50%;
+}
+.ImageBox{
+  display: flex;
+  height:350px;
+  width: 350px;
+  border-radius: 2px;
+  /* background-color: red; */
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,
+0.19);
+  border-radius: 2px;
+  margin-top:10px;
+  flex-direction: column;
+  align-items: center;
+
+}
+.Image{
+  margin-top: 2px;
+  height:300px;
+  width: 330px;
+  background-color:blue;
+}
+.ImageBox>p{
+  font-size: 12;
+}
+.BecomeaV{
+  display: flex;
+  /* background-color: red; */
+  justify-content: center;
+  flex-direction: column;
+}
+.personal{
+  font-weight: light;
+}
+.BecomeaV>h2{
+  font-weight: light;
+  font-size: 30px;
+}
+.BecomeaV>h5{
+  font-weight: lighter;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.lastSide{
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width:100vw;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width:40%;
+  height:230px;
+} 
+
+.Input{
+  height:40px;
+  background-color: rgb(71, 68, 68);
+  border: none;
+  padding-left: 20px;
+  color: white;
+  font-size: 15px;
+  border:none;
+  outline:0px;
+}
+.everythingDown{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100vw;
+  background-color: rgb(245, 208, 217);
+  outline:none;
+}
+.Top{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.below{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.writeMessage{
+  border-top-color: rgb(236, 157, 9);
+  border-right-color: rgb(236, 157, 9);
+  border-left-color: rgb(236, 157, 9);
+  border-bottom-color: white;
+  height:50px;
+  width: 40%;
+  margin-top: 20px;
+  outline: 0px;
+  
+}
+.lastDetails{
+  width:40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+.cv{
+  font-size: 20px;
+}
+.ChooseFile{
+  height:30px;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(24, 1, 1);
+  color:white;
+  font-size: 20px;
+  border-color:  rgb(236, 157, 9);
+}
+
+.footer{
+  width:100vw;
+  height:120px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Button{
+  height: 40px;
+  width:200px;
+  border-radius: 20px;
+  background-color:  rgb(236, 157, 9);
+  border:none;
+  outline:0px;
+  color:white;
+  font-size: 20px;
+}

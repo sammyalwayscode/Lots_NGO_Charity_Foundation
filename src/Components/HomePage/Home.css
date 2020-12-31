@@ -1,0 +1,222 @@
+.navBarHolder{
+  height: 60px;
+  width: 100%;
+  background-color:#242632;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -20px;
+}
+
+.logoDiv{
+  margin-left: 30px;
+}
+
+.navBar{
+  display: flex;
+  width: 600px;
+  justify-content: space-around;
+  margin-right: 60px;
+}
+
+.link11 {
+  color: white;
+  font-weight: normal;
+}
+
+.headerImage{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.imageItSelf{
+  width: 100vw;
+  height: 400px;
+  object-fit: cover;
+  
+}
+
+.counting{
+  height: 80px;
+  width: 800px;
+  margin-top: -170px;
+  background-color: #242632;
+  border: 3px solid #F28E36;
+  text-align: center;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+
+}
+
+.counting > p{
+  color: white;
+  margin-top: 4px;
+}
+
+.counting > h3{
+  color: white;
+  font-size: 30px;
+  margin-top: -7px;
+}
+
+.ourOur{
+  width: 350px;
+  margin-top: -30px;
+  justify-content: space-between;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.aaa{
+  color: #F28E36;
+}
+
+.bbb{
+  color: #242632;
+}
+
+.imgtex{
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.realStory{
+  background-image: url(../Img/hand.png);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 400px;
+  background-color: blueviolet;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.7;
+  color: #12131a;
+}
+
+.rrr{
+  width: 1100px;
+}
+
+@media (max-width: 768px ) {
+  .realStory{
+    font-size: larger;
+
+  }
+}
+
+.missionVision{
+  margin-top: 80px;
+}
+
+.diffcol{
+  display: flex;
+  width: 450px;
+  color: #242632;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: bold;
+  justify-content: space-around;
+}
+
+.ourM{
+  color: #F28E36;
+}
+
+.missVis{
+  background-image: url(../Img/miss.png);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 400px;
+  background-color: blueviolet;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.7;
+  color: white;
+}
+
+.ppp{
+  width: 800px;
+}
+
+.blog{
+  margin-top: 70px;
+  color: #F28E36;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.recc{
+  color: #242632;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+.mmmmmmm{
+  width: 100%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  background-color: #12131a;
+}
+
+.imageDiv{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 60px;
+}
+
+.imageDiv > img{
+  height: 200px;
+  width: 200px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .aFooter{
+  height: 100wh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  background-color: #242632;
+}
+
+.navFooter{
+  color: white;
+}
+
+.contr{
+  display: flex;
+  flex-direction: column;
+}
+
+.mediaLinks{
+ color: white;
+}
+
+.OurAddress{
+  width: 200px;
+  color: white;
+}
+
+.useF{
+  color: #F28E36;
+  font-weight: bold;
+} */
